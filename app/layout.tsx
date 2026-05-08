@@ -3,9 +3,9 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Alex Johnson | Senior SQA Engineer",
+  title: "Rao Muhammad Ali | Senior SQA Engineer",
   description:
-    "Professional portfolio of Alex Johnson — Senior Software Quality Assurance Engineer specializing in test automation, API testing, performance engineering, and CI/CD quality gates. ISTQB Certified.",
+    "Professional portfolio of Rao Muhammad Ali — Senior Software Quality Assurance Engineer specializing in test automation, API testing, performance engineering, and CI/CD quality gates. ISTQB Certified.",
   keywords: [
     "SQA Engineer",
     "Software Quality Assurance",
@@ -18,20 +18,20 @@ export const metadata: Metadata = {
     "Postman",
     "Performance Testing",
   ],
-  authors: [{ name: "Alex Johnson" }],
-  creator: "Alex Johnson",
+  authors: [{ name: "Rao Muhammad Ali" }],
+  creator: "Rao Muhammad Ali",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://alexjohnson-sqa.dev",
-    title: "Alex Johnson | Senior SQA Engineer",
+    title: "Rao Muhammad Ali | Senior SQA Engineer",
     description:
       "Professional portfolio showcasing 6+ years of QA engineering expertise in test automation, API testing, and quality strategy.",
-    siteName: "Alex Johnson SQA Portfolio",
+    siteName: "Rao Muhammad Ali SQA Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Johnson | Senior SQA Engineer",
+    title: "Rao Muhammad Ali | Senior SQA Engineer",
     description: "Professional SQA Engineer portfolio — test automation, API testing, performance engineering.",
     creator: "@alexjohnson_qa",
   },

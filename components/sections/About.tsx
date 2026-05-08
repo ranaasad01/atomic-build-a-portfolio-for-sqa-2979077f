@@ -1,8 +1,9 @@
 "use client";
 
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
+
 import { CheckCircle, Download } from 'lucide-react';
 import { fadeInLeft, fadeInRight, staggerContainer, fadeInUp } from "@/lib/animations";
 
@@ -54,7 +55,7 @@ export default function About() {
               <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border-2 border-sky-400/30 shadow-2xl shadow-sky-500/20">
                 <img
                   src="https://media.licdn.com/dms/image/v2/D5622AQGMvnXGYBKSvw/feedshare-shrink_800/B56ZwqcRsEH0Ac-/0/1770238581731?e=2147483647&v=beta&t=Fod04ULJTfAgYd7Lzjq8ApUSpugp7IYsY_KgR6MiPSE"
-                  alt="Alex Johnson - SQA Engineer"
+                  alt="Rao Muhammad Ali - SQA Engineer"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -102,7 +103,7 @@ export default function About() {
               </h3>
               <div className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed">
                 <p>
-                  I&apos;m <strong className="text-slate-900 dark:text-white">Alex Johnson</strong>, a Senior Software Quality Assurance Engineer
+                  I&apos;m <strong className="text-slate-900 dark:text-white">Rao Muhammad Ali</strong>, a Senior Software Quality Assurance Engineer
                   with over 6 years of experience building robust testing strategies for web, mobile, and API-driven applications.
                   I specialize in test automation architecture, performance engineering, and embedding quality throughout the SDLC.
                 </p>

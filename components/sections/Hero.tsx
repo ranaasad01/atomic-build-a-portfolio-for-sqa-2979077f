@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Download, Mail, ChevronDown, Code2 as Github, Briefcase as Linkedin, MessageCircle as Twitter } from 'lucide-react';
 import { SOCIAL_LINKS } from "@/lib/constants";
@@ -54,9 +54,9 @@ export default function Hero() {
           {/* Name */}
           <motion.div variants={fadeInUp}>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">
-              Alex{" "}
+              Rao Muhammad{" "}
               <span className="bg-gradient-to-r from-sky-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
-                Johnson
+                Ali
               </span>
             </h1>
           </motion.div>
@@ -205,6 +205,3 @@ function TypedText({ words }: { words: string[] }) {
     </span>
   );
 }
-
-// Need useState import
-import { useState, useEffect } from "react";
